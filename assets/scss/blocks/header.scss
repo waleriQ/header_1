@@ -1,0 +1,20 @@
+.container {
+  max-width: 1302px;
+  margin: 0 auto;
+}
+.container_header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.header_list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 55px;
+}
+.header_item {
+  padding-left: 27px;
+  padding-right: 27px;
+}
