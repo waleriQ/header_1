@@ -1,20 +1,39 @@
-.container {
-  max-width: 1302px;
-  margin: 0 auto;
-}
+@mixin header_style {
+  font-family: Roboto;
+   font-size: 14px;
+  line-height: 24px;
+  color: #505F98;
+  text-decoration: none;
+  }
+
 .container_header {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
   justify-content: space-between;
-  padding-top: 10px;
+  padding-top: 30px;
+  align-items: flex-end;
 }
 .header_list {
   display: flex;
-  flex-wrap: wrap;
-  padding-right: 55px;
+  
 }
-.header_item {
-  padding-left: 27px;
-  padding-right: 27px;
+
+.header_link {
+  @include header_style;
+  display: block;
+  padding-left: 40px;
+}
+.header_pic {
+  margin-right: 100px;
+}
+
+.header_btn {
+  width: 160px;
+  height: 26px;
+  background-color: #111B47;
+  color: white;
+  font-size: 12px;
+line-height: 18px;
+border-radius: 4px;
+border: none;
 }

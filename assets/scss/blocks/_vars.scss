@@ -1,0 +1,14 @@
+@mixin header_style {
+font-family: Roboto;
+ font-size: 14px;
+line-height: 24px;
+color: #505F98;
+text-decoration: none;
+}
+@mixin body_style {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 30px;
+  color: #505F98;
+  text-decoration: none;
+}
