@@ -12,20 +12,21 @@
   justify-content: space-between;
   padding-top: 30px;
   align-items: flex-end;
+
 }
 .header_list {
   display: flex;
+  flex: 1
   
 }
-
-.header_link {
-  @include header_style;
-  display: block;
+.header_item {
   padding-left: 40px;
 }
-.header_pic {
-  margin-right: 100px;
+.header_link {
+  @include header_style;
+
 }
+
 
 .header_btn {
   width: 160px;
@@ -36,4 +37,5 @@
 line-height: 18px;
 border-radius: 4px;
 border: none;
+
 }
